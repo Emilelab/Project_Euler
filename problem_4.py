@@ -2,7 +2,7 @@
 
 a = 0 #biggest palindrome
 
-def is_it_a_palindrome(n):
+def is_it_a_palindrome(n): #Probably a better way to check for palindrome then this big nested if statement
     s = str(n)
     l = len(s)
     global a
